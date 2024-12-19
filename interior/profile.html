@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+
+    <title>Document</title>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="navbar-left">
+            <a href="index.html"  class="logo"> <img src="juet_logo1.jpg"> </a>
+            <div class="search-box">
+                <img src="search.jpeg" >
+                <input type="text" placeholder="Search">
+            </div>
+        </div>
+        <div class="navbar-centre">
+            <ul>
+                <li><a href="#" class="active"><img src="home-icon.jpg" ><span> Home </span></a></li>
+                <li><a href="#" ><img src="network.png"><span> My Network </span></a></li>
+                <li><a href="#" ><img src="jobs.png"><span> Jobs </span></a></li>
+                <li><a href="#" ><img src="messages.jpeg"><span> Messaging </span></a></li>
+                <li><a href="#" ><img src="Notification.jpeg"><span> Notifications </span></a></li>
+            </ul>
+        </div>
+        <div class="navbar-right">
+            <div class="online">
+                <img src="profilepic.jpg" class="nav-profile-img" onclick="toggleMenu()">
+            </div>
+        </div>
+        <!-- -------------------profile Drop Down Menu--------------------- -->
+        <div class="profile-menu-warp" id="profileMenu">
+            <div class="profile-menu">
+                <div class="user-info">
+                    <img src="profilepic.jpg" >
+                    <div>
+                        <h3>Ankit Jaiswal</h3>
+                        <a href="profile.html">See your Profile</a>
+                    </div>
+                </div>
+                <hr>
+                <a href="#" class="profile-menu-link">
+                    <img src="messages.jpeg" >
+                    <p>Give Feedback</p>
+                    <span>></span>
+                </a>
+                <hr>
+                <a href="#" class="profile-menu-link">
+                    <img src="messages.jpeg" >
+                    <p>Setting &privacy</p>
+                    <span>></span>
+                </a>
+                <hr>
+                <a href="#" class="profile-menu-link">
+                    <img src="messages.jpeg" >
+                    <p>Help and Support</p>
+                    <span>></span>
+                </a>
+                <hr>
+                <a href="#" class="profile-menu-link">
+                    <img src="messages.jpeg" >
+                    <p>Display Accessibility</p>
+                    <span>></span>
+                </a>
+                <hr>
+                <a href="#" class="profile-menu-link">
+                    <img src="messages.jpeg" >
+                    <p>Logout</p>
+                    <span>></span>
+                </a>
+            </div>
+        </div>
+    </nav>
+    <!------------------------------------navbar khatam----------------------------->
+    <div class="container">
+        <div class="profile-main">
+            <div class="profile-container">
+                <img src="background.png" width="100%">
+                <div class="profile-container-inner">
+                    <img src="profilepic.jpg" class="profile-pic">
+                    <h1>Ankit Jaiswal</h1>
+                    <b>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ducimus praesentium at consequuntur consequatur perferendis fuga fugiat, unde reprehenderit saepe aspernatur alias quidem ad similique quasi explicabo accusantium. Accusamus, veniam dolor!</b>
+                    <p>Gorakhpur , Uttar Pradesh &middot; <a href="#">Contact info</a></p>
+                    <div class="mutual-connection">
+                        <img src="profilepic.jpg" >
+                        <span> 1 mutual connection: Bhavesh Rdi</span>
+                    </div>
+                    <div class="profile-btn">
+                        <a href="#" class="primary-btn"><img src="Add friend.jpg" >Connect</a>
+                        <a href="#"><img src="messages.jpeg" > Messages</a>
+                    </div>
+                </div>
+            </div>
+            <div class="profile-description">
+                <h2>About</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus reiciendis quisquam quod expedita, error porro ut aliquid officiis repellendus voluptate in. Iure vitae commodi quam? Nobis soluta alias accusamus temporibus?</p>
+                <a href="#" class="see-more-link">See More....</a>
+            </div>
+            <div class="profile-description">
+                <h2>Experience</h2>
+                <div class="profile-desc-row">
+                    <img src="juet_logo1.jpg" >
+                    <div>
+                        <h3>Lead Front End Developer </h3>
+                        <b>Jaypee University &middot; Full-Time</b>
+                        <b>Batch 2021-25 &middot; 3rd year</b>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Architecto dolorem fugiat est, hic et voluptate maiores in numquam delectus blanditiis sint deleniti soluta dicta, laboriosam eius necessitatibus deserunt! Optio, illum.</p>
+                        <hr>
+                    </div>
+                </div>
+                <div class="profile-desc-row">
+                    <img src="slack.jpg" >
+                    <div>
+                        <h3>Full Stack Developer </h3>
+                        <b>Jaypee University &middot; Full-Time</b>
+                        <b>June 2022 - june 2025 &middot; 3 year connection</b>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Architecto dolorem fugiat est, hic et voluptate maiores in numquam delectus blanditiis sint deleniti soluta dicta, laboriosam eius necessitatibus deserunt! Optio, illum.</p>
+                        <hr>
+                    </div>
+                </div>
+                
+                <a href="#" class="experience-link">Show All Experiences <img src="down-arrow.png"></a>
+            </div>
+            <div class="profile-description">
+                <h2>Education</h2>
+                <div class="profile-desc-row">
+                    <img src="Jaypee.jpg" >
+                    <div>
+                        <h3>Jaypee University </h3>
+                        <b>B.Tech , Computer Science Engineering</b>
+                        <b>2021 - 2025</b>
+                        <hr>
+                    </div>
+                </div>
+                <div class="profile-desc-row">
+                    <img src="Jaypee.jpg" >
+                    <div>
+                        <h3>Central Hindu School </h3>
+                        <b>12th , Science</b>
+                        <b>2017 - 2021</b>
+                    </div>
+                </div>
+            </div>
+            <div class="profile-description">
+                <h2>Skills</h2>
+                <a href="#" class="skills-btn">Leadership</a>
+                <a href="#" class="skills-btn">Web Design</a>
+                <a href="#" class="skills-btn">Development</a>
+                <a href="#" class="skills-btn">Communication</a>
+                <a href="#" class="skills-btn">UI/UX</a>
+                <a href="#" class="skills-btn">Planning</a>
+                <a href="#" class="skills-btn">Coding</a>
+                <a href="#" class="skills-btn">JavaScript</a>
+                <a href="#" class="skills-btn">Python</a>
+                <a href="#" class="skills-btn">Enterprenuorship</a>
+            </div>
+            <div class="profile-description">
+                <h2>Language</h2>
+                <a href="#" class="language-btn">English</a>
+                <a href="#" class="language-btn">Hindi</a>
+                <a href="#" class="language-btn">Bhojpuri</a>
+            </div>
+        </div>
+
+
+        <div class="profile-sidebar">
+            <div class="sidebar-ad">
+                <small>Ad &middot; &middot; &middot;</small>
+                <p> Master the 5 principles of web design </p>
+                <div>
+                    <img src="user.jpg" >
+                    <img src="Company-logo.png" >
+                </div>
+                <b>Brand and Demand in Xiaomi</b>
+                <a href="#" class="ad-link">Learn more</a>
+            </div>
+            <div class="sidebar-people">
+                <h3>People you may know</h3>
+                <div class ="sidebar-people-row">
+                    <img src ="profilepic.jpg">
+                    <div>
+                        <h2>Bhavesh Dixit</h2>
+                        <p>Head of marketing </p>
+                        <a href="#">Connect</a>
+                    </div>
+                </div>
+                
+                
+                <div class ="sidebar-people-row">
+                    <img src ="profilepic.jpg">
+                    <div>
+                        <h2>Aniket jhaa</h2>
+                        <p>Head of marketing </p>
+                        <a href="#">Connect</a>
+                    </div>
+                </div>
+                <div class ="sidebar-people-row">
+                    <img src ="profilepic.jpg">
+                    <div>
+                        <h2>Aman kumar</h2>
+                        <p>Head of marketing </p>
+                        <a href="#">Connect</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<div class="profile-footer">
+            
+    <div class="sidebar-useful-links""></div>"
+    <a href="#">About</a>
+    <a href="#">Accessiblity</a>
+    <a href="#">Help Center</a>
+    <a href="#">Privacy Policy</a>
+    <a href="#">Advertising</a>
+    <a href="#">Get the App</a>
+    <a href="#">More</a>
+    
+        <div class="copyright-msg">
+            <img src="juet_logo1.jpg">
+            <p>Linkedup &#169; 2022. All right reserved</p>
+    
+        </div>
+    
+    </div>
+        
+    </div>
+
+    <script>
+        let profileMenu = document.getElementById("profileMenu");
+        function toggleMenu(){
+            profileMenu.classList.toggle("open-menu");
+        }
+    </script>
+
+</body>
+</html>

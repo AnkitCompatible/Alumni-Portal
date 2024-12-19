@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+
+    <title>Document</title>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="navbar-left">
+            <a href="index.html"  class="logo"> <img src="juet_logo1.jpg"> </a>
+            <div class="search-box">
+                <img src="search.jpeg" >
+                <input type="text" placeholder="Search">
+            </div>
+        </div>
+        <div class="navbar-centre">
+            <ul>
+                <li><a href="#" class="active"><img src="home-icon.jpg" ><span> Home </span></a></li>
+                <li><a href="#" ><img src="network.png"><span> My Network </span></a></li>
+                <li><a href="#" ><img src="jobs.png"><span> Jobs </span></a></li>
+                <li><a href="#" ><img src="messages.jpeg"><span> Messaging </span></a></li>
+                <li><a href="#" ><img src="Notification.jpeg"><span> Notifications </span></a></li>
+            </ul>
+        </div>
+        <div class="navbar-right">
+            <div class="online">
+                <img src="profilepic.jpg" class="nav-profile-img" onclick="toggleMenu()">
+            </div>
+        </div>
+        <!-- -------------------profile Drop Down Menu--------------------- -->
+        <div class="profile-menu-warp" id="profileMenu">
+            <div class="profile-menu">
+                <div class="user-info">
+                    <img src="profilepic.jpg" >
+                    <div>
+                        <h3>Ankit Jaiswal</h3>
+                        <a href="profile.html">See your Profile</a>
+                    </div>
+                </div>
+                <hr>
+                <a href="#" class="profile-menu-link">
+                    <img src="messages.jpeg" >
+                    <p>Give Feedback</p>
+                    <span>></span>
+                </a>
+                <hr>
+                <a href="#" class="profile-menu-link">
+                    <img src="messages.jpeg" >
+                    <p>Setting &privacy</p>
+                    <span>></span>
+                </a>
+                <hr>
+                <a href="#" class="profile-menu-link">
+                    <img src="messages.jpeg" >
+                    <p>Help and Support</p>
+                    <span>></span>
+                </a>
+                <hr>
+                <a href="#" class="profile-menu-link">
+                    <img src="messages.jpeg" >
+                    <p>Display Accessibility</p>
+                    <span>></span>
+                </a>
+                <hr>
+                <a href="#" class="profile-menu-link">
+                    <img src="messages.jpeg" >
+                    <p>Logout</p>
+                    <span>></span>
+                </a>
+            </div>
+        </div>
+    </nav>
+    <!------------------------------------navbar khatam----------------------------->
+
+
+    <div class="container">
+        <div class="left-sidebar">
+            <div class="sidebar-profile-box">
+                <!-- change photo -->
+                <img src="profilepic.jpg" width="100%">          
+                <div class="sidebar-profile-info">
+                    <!-- change photo -->
+                    <img src="profilepic.jpg" >
+                    <h1>Ankit Jaiswal</h1>
+                    <h3>Web developer</h3>
+                    <ul>
+                        <li>Your profile views<span>500</span></li>
+                        <li>Your post views<span>1024</span></li>
+                        <li>Your connections<span>2045</span></li>    
+                    </ul>
+                </div>
+                <div class="sidebar-profile-link">
+                    <a href="#"><img src="items.png" >My items</a>
+                    <a href="#"><img src="perminum.jpeg" >Try Preminum</a>
+                </div>
+            </div>
+            <div class="sidebar-activity">
+                <h3>RECENT</h3>
+                <a href="#"><img src="recent.png">Web Development</a>
+                <a href="#"><img src="recent.png">DataBase Management </a>
+                <a href="#"><img src="recent.png">Data Structure</a>
+                <a href="#"><img src="recent.png">UI UX </a>
+                <a href="#"><img src="recent.png">Android Development</a>
+                <h3>GROUPS</h3>
+                <a href="#"><img src="group.png">Design Group</a>
+                <a href="#"><img src="group.png">Analytic Groups</a>
+                <a href="#"><img src="group.png">Learn Coding Online</a>
+                <a href="#"><img src="group.png">Daily Update</a>
+                <h3>HASTAG</h3>
+                <a href="#"><img src="hastag.jpeg">webdevelopment</a>
+                <a href="#"><img src="hastag.jpeg">onlinelarning</a>
+                <a href="#"><img src="hastag.jpeg">everylife</a> 
+            </div>
+            <div class="discover-more-link">
+                <a href="#">Discover More</a>
+            </div>
+        </div>
+
+
+        <div class="main-content">
+            <div class="create-post">
+                <div class="create-post-input">
+                    <img src="profilepic.jpg">
+                    <textarea rows="2" placeholder="Write a Post"></textarea>
+                </div>
+                <div class="create-post-links">
+                    <li><img src="photo.svg">Photo</li>
+                    <li><img src="video.png">Video</li>
+                    <li><img src="Event.jpg">Event</li>
+                    <li>Post</li>
+                </div>
+            </div>
+            <div class="sort-by">
+                <hr>
+                <p>Sort by: <span> top <img src="down-arrow.png" ></span></p>
+            </div>
+            <div class="post">
+                <div class="post-author">
+                    <img src="profilepic.jpg">
+                    <div>
+                        <h1>Ankit Jaiswal</h1>
+                        <small>Founder and CEO at Jaypee University | Portals</small>
+                        <small>2 hours ago</small>
+                    </div>
+                </div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta consequatur odit, at mollitia velit, earum repellat reprehenderit eaque voluptatum ea magnam dignissimos harum odio ullam sunt sapiente nihil? Sapiente, voluptatibus?
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque amet a accusamus! Commodi voluptatibus minus, illo autem molestias atque corrupti modi perspiciatis, delectus natus placeat! Aspernatur ut dolores doloribus totam!
+                </p>
+                <img src="profilepic.jpg" width="100%">
+                
+                <div class="post-stats">
+                    <div>
+                        <img src="thumbsup.png">
+                        <img src="love.jpeg" >
+                        <img src="clap.jpeg" >
+                        <span class="liked-user"> Aniket jha and 600 Others</span>
+                    </div>
+                    <div>
+                        <span>225 comments  &middot;  182 shares</span>
+                    </div>
+                </div>
+                <div class="post-activity">
+                    <img src="profilepic.jpg" class="post-activity-user-icon">
+                    <img src="down-arrow.png" class="post-activity-arrow-icon">
+                </div>
+                <div class="post-activity-link"> 
+                    <img src="liked.jpg">
+                    <span>Like</span>
+                </div>
+                <div class="post-activity-link">
+                    <img src="comment.png">
+                    <span>Comment</span>
+                </div>
+                <div class="post-activity-link">
+                    <img src="shared.png">
+                    <span>Share</span>
+                </div>
+            </div>
+            <div class="post">
+                <div class="post-author">
+                    <img src="profilepic.jpg">
+                    <div>
+                        <h1>Ankit Jaiswal</h1>
+                        <small>Founder and CEO at Jaypee University | Portals</small>
+                        <small>2 hours ago</small>
+                    </div>
+                </div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta consequatur odit, at mollitia velit, earum repellat reprehenderit eaque voluptatum ea magnam dignissimos harum odio ullam sunt sapiente nihil? Sapiente, voluptatibus?
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque amet a accusamus! Commodi voluptatibus minus, illo autem molestias atque corrupti modi perspiciatis, delectus natus placeat! Aspernatur ut dolores doloribus totam!
+                </p>
+                <img src="profilepic.jpg" width="100%">
+                
+                <div class="post-stats">
+                    <div>
+                        <img src="thumbsup.png">
+                        <img src="love.jpeg" >
+                        <img src="clap.jpeg" >
+                        <span class="liked-user"> Aniket jha and 600 Others</span>
+                    </div>
+                    <div>
+                        <span>225 comments  &middot;  182 shares</span>
+                    </div>
+                </div>
+                <div class="post-activity">
+                    <img src="profilepic.jpg" class="post-activity-user-icon">
+                    <img src="down-arrow.png" class="post-activity-arrow-icon">
+                </div>
+                <div class="post-activity-link"> 
+                    <img src="liked.jpg">
+                    <span>Like</span>
+                </div>
+                <div class="post-activity-link">
+                    <img src="comment.png">
+                    <span>Comment</span>
+                </div>
+                <div class="post-activity-link">
+                    <img src="shared.png">
+                    <span>Share</span>
+                </div>
+            </div>
+            <div class="post">
+                <div class="post-author">
+                    <img src="profilepic.jpg">
+                    <div>
+                        <h1>Ankit Jaiswal</h1>
+                        <small>Founder and CEO at Jaypee University | Portals</small>
+                        <small>2 hours ago</small>
+                    </div>
+                </div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta consequatur odit, at mollitia velit, earum repellat reprehenderit eaque voluptatum ea magnam dignissimos harum odio ullam sunt sapiente nihil? Sapiente, voluptatibus?
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque amet a accusamus! Commodi voluptatibus minus, illo autem molestias atque corrupti modi perspiciatis, delectus natus placeat! Aspernatur ut dolores doloribus totam!
+                </p>
+                <img src="profilepic.jpg" width="100%">
+                
+                <div class="post-stats">
+                    <div>
+                        <img src="thumbsup.png">
+                        <img src="love.jpeg" >
+                        <img src="clap.jpeg" >
+                        <span class="liked-user"> Aniket jha and 600 Others</span>
+                    </div>
+                    <div>
+                        <span>225 comments  &middot;  182 shares</span>
+                    </div>
+                </div>
+                <div class="post-activity">
+                    <img src="profilepic.jpg" class="post-activity-user-icon">
+                    <img src="down-arrow.png" class="post-activity-arrow-icon">
+                </div>
+                <div class="post-activity-link"> 
+                    <img src="liked.jpg">
+                    <span>Like</span>
+                </div>
+                <div class="post-activity-link">
+                    <img src="comment.png">
+                    <span>Comment</span>
+                </div>
+                <div class="post-activity-link">
+                    <img src="shared.png">
+                    <span>Share</span>
+                </div>
+            </div>
+            
+        </div>
+
+
+        <div class="right-sidebar">
+            <div class="sidebar-news">
+                <img src="" class="info-icon">
+                <h1>Treanding News</h1>
+                <a href="#">High demand for skilled manpower</a>
+                <span>1 Day ago &middot; 10,056 readers</span>
+
+                <a href="#">Careers growing horizontally too</a>
+                <span>1 Day ago &middot; 1,560 readers</span>
+                
+                <a href="#">More hiring = higher confidence</a>
+                <span>1 Day ago &middot; 26,056 readers</span>
+                
+                <a href="#">Mukesh Ambani is the world's ninth richest man </a>
+                <span>1 Day ago &middot; 51,056 readers</span>
+
+                <a href="#" class="read-more-link">Read More</a>
+
+                <div class="sidebar-ad">
+                    <small>Ad &middot; &middot; &middot;</small>
+                    <p> Master the 5 principles of web design </p>
+                    <div>
+                        <img src="user.jpg" >
+                        <img src="Company-logo.png" >
+                    </div>
+                    <b>Brand and Demand in Xiaomi</b>
+                    <a href="#" class="ad-link">Learn more</a>
+                </div>
+                <div class="sidebar-useful-links">
+                    <a href="#">About</a>
+                    <a href="#">Accessibility</a>
+                    <a href="#">Help Centre</a>
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Advertising</a>
+                    <a href="#">Get the App</a>
+                    <a href="#">More</a>
+
+                    <div class="copyright-msg">
+                        <img src="juet_logo1.jpg" >
+                        <p>Jaypee University Alumini Portal 2023.All right reserved </p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+    <script>
+        let profileMenu = document.getElementById("profileMenu");
+        function toggleMenu(){
+            profileMenu.classList.toggle("open-menu");
+        }
+    </script>
+
+</body>
+</html>
